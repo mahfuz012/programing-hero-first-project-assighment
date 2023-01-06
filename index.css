@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Header all classes are here */
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-size: cover;
+    background-image: url("./banner/banner3.png");
+}
+.header-article {
+    width: 422px;
+
+    height: 388px;
+
+    margin-left: 582px;
+    margin-top: 110px;
+}
+.header-article h1 {
+    text-shadow: 1px 1px 15px rgb(6, 148, 249);
+    color: rgb(244, 245, 245);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-article p {
+
+    text-align: right;
+    padding-right: 20px;
+    color: rgba(227, 241, 245, 0.977);
+    margin-top: 35px;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 16px;
+}
+.butto-header {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 8px rgba(13, 206, 241, 0.988);
+    cursor: pointer;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    padding-right: 20px;
+    margin-left: 270px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgba(39, 38, 37, 0.999);
+}
+.fa-phone-flip {
+    margin-left: 3px;
+}
+.butto-header:hover {
+    background-color: coral;
+    color: rgb(14, 14, 14);
+    box-shadow: 0px 0px 10px rgba(241, 138, 13, 0.988);
+}
+
+
+ /*Header all classes are finished */
+
+
+
+/*section (part one) starts from here.. */
+.section-part-one{
+    width:100% ;
+    height:100vh;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.section-part-one-image{
+    width: 50%;
+    height:450px;
+    border: 1px solid black;
+
+
+
+  
+
+}
+.section-part-one-image img{
+    height:450px;
+    margin-left: 140px;
+
+}
+.section-part-one-article{
+    border:1px solid black;
+    width: 50%;
+    height:450px;
+    
+
+
+}
+.section-part-one-article h2{
+    background-color: rgb(15, 250, 234);
+   margin-right: 250px;
+   margin-bottom: 20px;
+   font-size: 35px;
+   margin-top: 80px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-part-one-article p{
+    margin-right: 200px;
+    margin-bottom: 8px;
+    font-size: 15px;
+   
+    line-height: 22px;
+    color: rgb(50, 49, 49);
+}
+.section-part-one-article ul{
+    color: rgb(89, 89, 88);
+    list-style-type: none;
+    margin-left: 20px;
+    line-height: 35px;
+    font-size: 15px;
+font-family:'Times New Roman', Times, serif;
+font-weight: 500;
+}
+.section-part-one-article ul li:hover{
+    color: black;
+}
+
+.section-part-one-article ul i{
+    color: rgba(32, 164, 3, 0.867);
+    margin-right: 10px;
+}
+.section-part-one-article ul li:hover .fa-circle-check {
+    color: rgb(42, 8, 211);
+}
