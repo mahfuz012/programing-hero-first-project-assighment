@@ -75,7 +75,7 @@ header {
 
 /*section (part one) starts from here.. */
 .section-part-one{
-    width:100% ;
+    width:100%;
     height:100vh;
     display: flex;
     border: 1px solid black;
