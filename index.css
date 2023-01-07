@@ -271,7 +271,8 @@ text-decoration:overline;
     margin-top:75px;
     background-size: cover;
     background-image: url("./banner/tea.png");
-
+    border-left: 6px solid coral;
+    border-right: 6px solid coral;
 }
 .first-postion-article{
     width:400px ;
@@ -320,7 +321,9 @@ cursor: pointer;
    margin-top: 50px;
 }
 
-
+.fa-cart-shopping{
+    margin-right: 5px;
+}
 
 
 
