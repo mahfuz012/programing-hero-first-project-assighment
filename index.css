@@ -117,21 +117,22 @@ background-repeat: no-repeat;
     width: 50%;
     height: 450px;
     background-image: url("./banner/warning-sign.png");
-    background-position: 130% 80%;
+    background-position: 130% 100%;
     background-repeat: no-repeat;
     background-size:60%;
 }
 
 .section-part-one-article h2 {
     background-color: rgb(152, 48, 249);
-    padding: 8px;
+    padding: 8px 8px;
     border-radius: 12px;
     margin-right: 250px;
     margin-bottom: 20px;
     font-size: 35px;
+    text-align: center;
     margin-top: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
+    color: rgb(251, 253, 255);
 }
 
 .section-part-one-article p {
