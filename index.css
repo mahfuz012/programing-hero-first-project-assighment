@@ -18,17 +18,17 @@ header {
 
 .header-article {
     width: 422px;
-
+  border: 1px solid blac;
     height: 388px;
 
-    margin-left: 582px;
-    margin-top: 110px;
+    margin-left: 37rem;
+    margin-top: 10rem;
 }
 
 .header-article h1 {
     text-shadow: 1px 1px 15px rgb(6, 148, 249);
     color: rgb(244, 245, 245);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     text-align: right;
     padding-right: 20px;
@@ -40,7 +40,7 @@ header {
     text-align: right;
     padding-right: 20px;
     color: rgba(227, 241, 245, 0.977);
-    margin-top: 35px;
+    margin-top: 28px;
     font-weight: 700;
     line-height: 22px;
     font-size: 16px;
