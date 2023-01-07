@@ -22,7 +22,13 @@ height: 348px;
 margin-left: 55%;
     margin-top: 9rem;
 }
-
+.header-article span{
+    color: rgb(213, 246, 26);
+    background-color: rgb(0, 0, 0);
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 12px;
+}
 .header-article h1 {
     text-shadow: 1px 1px 15px rgb(6, 148, 249);
     color: rgb(244, 245, 245);
@@ -66,7 +72,7 @@ margin-left: 55%;
     margin-left: 3px;
 }
 
-.butto-header:hover {
+.button-header:hover {
     background-color: coral;
     color: rgb(14, 14, 14);
     box-shadow: 0px 0px 10px rgba(241, 138, 13, 0.988);
@@ -310,6 +316,9 @@ cursor: pointer;
 .first-position-nested button:active{
     border-bottom: 5px solid black;
 }
+.first-position-nested button:hover{
+    border-bottom: 5px solid black;
+}
 .second-postion-image{
     width:400px ;
     height:400px ;
@@ -324,23 +333,6 @@ cursor: pointer;
 .fa-cart-shopping{
     margin-right: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
