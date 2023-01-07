@@ -84,16 +84,22 @@ header {
     width: 100%;
     height: 100vh;
     display: flex;
-    border: 1px solid black;
+
     margin-top: 20px;
     justify-content: center;
     align-items: center;
+  
+   background-size: 60%;
 }
 
 .section-part-one-image {
     width: 50%;
     height: 450px;
-    border: 1px solid black;
+  
+    background-image: url("./banner/gradient.png");
+    background-position:bottom left;
+background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .section-part-one-image img {
@@ -103,24 +109,32 @@ header {
 }
 
 .section-part-one-article {
-    border: 1px solid black;
+    
     width: 50%;
     height: 450px;
+    background-image: url("./banner/warning-sign.png");
+    background-position: 130% 80%;
+    background-repeat: no-repeat;
+    background-size:60%;
 }
 
 .section-part-one-article h2 {
-    background-color: rgb(15, 250, 234);
+    background-color: rgb(152, 48, 249);
+    padding: 8px;
+    border-radius: 12px;
     margin-right: 250px;
     margin-bottom: 20px;
     font-size: 35px;
-    margin-top: 80px;
+    margin-top: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
 }
 
 .section-part-one-article p {
     margin-right: 200px;
     margin-bottom: 8px;
     font-size: 15px;
+    text-indent: 35px;
 
     line-height: 22px;
     color: rgb(50, 49, 49);
@@ -163,7 +177,11 @@ header {
     text-align: center;
     font-size: 3rem;
     margin-top: 30px;
+    color:seagreen;
+text-decoration:overline;
+
 }
+
 
 .my-plan-items {
     width: 887px;
@@ -181,9 +199,8 @@ header {
     height: 250px;
     margin-top: 25px;
     text-align: center;
-    border-left: 2px solid rgb(6, 21, 224);
-    border-right: 2px solid black;
-    border-radius: 12px;
+   border:2px solid seagreen;
+    border-radius: 30px;
     margin-left: 12px;
 }
 
@@ -196,6 +213,8 @@ header {
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background-color: seagreen;
+    color: aliceblue;
 }
 
 .items p {
@@ -260,6 +279,9 @@ height:450px;
 color: aliceblue;
 
 }
+
+
+
 .footer-part-one i{
    font-size:35px;
    margin-right: 20px;
@@ -270,7 +292,7 @@ color: aliceblue;
     font-family:Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 5px;
     margin-top: 50px;
-    color:coral;
+    color:rgb(254, 115, 64);
 }
 .footer-part-paragraph{
    margin-top: 30px;
@@ -286,6 +308,7 @@ color: aliceblue;
 line-height: 50px;
 font-weight: 800;
    color:coral;
+ 
 }
 .footer-part-one em{
     color:coral;
@@ -334,6 +357,7 @@ border: none;
 margin-top: 15px;
 background-color:coral;
 font-weight: 600;
+cursor: pointer;
 }
 
 /*Footer part (ends) */
