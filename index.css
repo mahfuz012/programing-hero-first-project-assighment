@@ -15,6 +15,7 @@ header {
     background-size: cover;
     background-image: url("./banner/banner3.png");
 }
+
 .header-article {
     width: 422px;
 
@@ -23,6 +24,7 @@ header {
     margin-left: 582px;
     margin-top: 110px;
 }
+
 .header-article h1 {
     text-shadow: 1px 1px 15px rgb(6, 148, 249);
     color: rgb(244, 245, 245);
@@ -32,6 +34,7 @@ header {
     padding-right: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .header-article p {
 
     text-align: right;
@@ -42,26 +45,29 @@ header {
     line-height: 22px;
     font-size: 16px;
 }
-.butto-header {
+
+.button-header {
     padding: 14px 20px;
     border: none;
     border-radius: 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
-    background-color: aliceblue;
+    background-color: rgb(213, 246, 26);
     box-shadow: 0px 0px 8px rgba(13, 206, 241, 0.988);
     cursor: pointer;
-    border-left: 4px solid black;
-    border-right: 4px solid black;
+    border-left: 4px solid rgb(76, 4, 244);
+    border-right: 4px solid rgb(76, 4, 244);
     padding-right: 20px;
-    margin-left: 270px;
+    margin-left: 263px;
     margin-top: 20px;
     font-weight: 600;
     color: rgba(39, 38, 37, 0.999);
 }
+
 .fa-phone-flip {
     margin-left: 3px;
 }
+
 .butto-header:hover {
     background-color: coral;
     color: rgb(14, 14, 14);
@@ -69,78 +75,265 @@ header {
 }
 
 
- /*Header all classes are finished */
+/*Header all classes are finished */
 
 
 
 /*section (part one) starts from here.. */
-.section-part-one{
-    width:100%;
-    height:100vh;
+.section-part-one {
+    width: 100%;
+    height: 100vh;
     display: flex;
     border: 1px solid black;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
- 
-
 }
-.section-part-one-image{
+
+.section-part-one-image {
     width: 50%;
-    height:450px;
+    height: 450px;
     border: 1px solid black;
-
-
-
-  
-
 }
-.section-part-one-image img{
-    height:450px;
+
+.section-part-one-image img {
+    height: 450px;
     margin-left: 140px;
 
 }
-.section-part-one-article{
-    border:1px solid black;
+
+.section-part-one-article {
+    border: 1px solid black;
     width: 50%;
-    height:450px;
-    
-
-
+    height: 450px;
 }
-.section-part-one-article h2{
+
+.section-part-one-article h2 {
     background-color: rgb(15, 250, 234);
-   margin-right: 250px;
-   margin-bottom: 20px;
-   font-size: 35px;
-   margin-top: 80px;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.section-part-one-article p{
+
+.section-part-one-article p {
     margin-right: 200px;
     margin-bottom: 8px;
     font-size: 15px;
-   
+
     line-height: 22px;
     color: rgb(50, 49, 49);
 }
-.section-part-one-article ul{
+
+.section-part-one-article ul {
     color: rgb(89, 89, 88);
     list-style-type: none;
     margin-left: 20px;
     line-height: 35px;
     font-size: 15px;
-font-family:'Times New Roman', Times, serif;
-font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
-.section-part-one-article ul li:hover{
+
+.section-part-one-article ul li:hover {
     color: black;
 }
 
-.section-part-one-article ul i{
+.section-part-one-article ul i {
     color: rgba(32, 164, 3, 0.867);
     margin-right: 10px;
 }
+
 .section-part-one-article ul li:hover .fa-circle-check {
     color: rgb(42, 8, 211);
 }
+
+
+/*2nd section part (stars) */
+
+
+.section-two {
+    width: 100%;
+    height: min-content;
+
+}
+
+.section-two h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.my-plan-items {
+    width: 887px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    align-items: center;
+
+}
+
+.items {
+
+    width: 300px;
+    height: 250px;
+    margin-top: 25px;
+    text-align: center;
+    border-left: 2px solid rgb(6, 21, 224);
+    border-right: 2px solid black;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+
+.items img {
+    margin-top: 2rem;
+}
+
+.items h3 {
+    margin-top: 1rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.items p {
+    margin-top: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+.banner-image {
+    border-radius: 12px;
+    border-left: 10px solid rgb(236, 53, 25);
+    width: 887px;
+    height: 190px;
+    margin: auto;
+    margin-top: 80px;
+    background-image:
+        linear-gradient(242deg, rgba(249, 251, 254, 0) 0%, rgba(18, 90, 244, 0.806) 100%),
+        url("./banner/watch.png");
+}
+
+.banner-image h2 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 480px;
+    color: aliceblue;
+    margin-left: 50px;
+    padding-top: 35px;
+
+}
+
+.banner-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 1rem;
+    color: rgba(28, 57, 242, 0.897);
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 5px solid rgb(236, 53, 25);
+}
+/*2nd section part (End) */
+
+/*Footer part (stars) */
+ 
+
+.footer-part{
+    width:100%;
+   background-image: url("./banner/deep1.png");
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(142, 21, 3, 0.948);
+    margin-top: 65px;
+}
+.footer-part-one{
+padding-left: 120px;
+width:50%;
+height:450px;
+color: aliceblue;
+
+}
+.footer-part-one i{
+   font-size:35px;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+.footer-part-one h3{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    color:coral;
+}
+.footer-part-paragraph{
+   margin-top: 30px;
+    font-size: 15px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+  
+     
+}
+.footer-part-2nd-paragraph{
+line-height: 50px;
+font-weight: 800;
+   color:coral;
+}
+.footer-part-one em{
+    color:coral;
+    font-weight: 600;
+}
+.fa-facebook{
+    color: rgb(5, 133, 238);
+}
+.fa-twitter{
+    color: rgb(29 161 242);
+}
+.fa-youtube{
+    color: red;
+}
+.footer-part-two{
+    width:50%;
+    height:450px;
+
+    padding-left:150px;
+    
+}
+.footer-part-two h2{
+font-size: 35px;
+color: coral;
+letter-spacing: 3px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 60px;
+}
+.footer-part-two input{
+border-radius: 5px;
+width: 220px;
+height: 45px;
+margin-top: 15px;
+padding-left: 15px;
+border: none;
+
+}
+.footer-part-two input:focus{
+    border: none;
+    outline: none;
+}
+.footer-button{
+padding: 16px 35px;
+border-radius: 5px;
+border: none;
+margin-top: 15px;
+background-color:coral;
+font-weight: 600;
+}
+
+/*Footer part (ends) */
